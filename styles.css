@@ -1,0 +1,132 @@
+
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey", sans-serif;
+    background: linear-gradient(darkgreen, #FFB612) ; /*  cchangeolor based on person, currently set for Green Bay Packers Colors */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer {
+    font-style:italic;
+    
+}
+a {
+    color: white;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#bdayimg {
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    border:6px solid #FFB612;
+}
+
+h1, h2, h4, h3, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background: #FFB612;
+    border-radius: 5px;
+    padding: 5px 1px;
+    margin: 5px 0 10px 0;
+    
+}
+
+#bday-date {
+    background: #FFB612;
+    border-radius: 5px;
+    padding: 5px 5px; 
+    margin: 0;
+}
+
+.gift-section {
+    margin-top: 50px;
+
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    
+    height: 400px; 
+    width: 400px;
+    box-sizing: border-box;
+    border: 6px solid black;
+    border-radius: 20px;
+    background-image: url("./images/bannana-present.jpg");
+    background-size: contain;
+    background-position: center;
+    margin: 20px auto;
+    
+    
+
+}
+
+#happy-img:hover {
+    background-image: url("./images/happyGIF.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+#see-you:hover {
+    background-image: url("./images/GoldenCool.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+   
+    
+}
+
+#gift-img-genius:hover {
+    background-image: url("./images/smartGIF.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gift-img-badass {
+    height: 400px;
+    width:400px;
+}
+   
+#gift-img-badass:hover {
+    background-image: url("./images/point-to-you.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#gift-img-cheers {
+    height: 200px;
+    width: 400px;
+    
+    background-position: center;
+
+}
+
+#gift-img-cheers:hover {
+    background-position: center center;
+    background-image: url("./images/cheers.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
